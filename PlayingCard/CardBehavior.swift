@@ -10,7 +10,7 @@ class CardBehavior: UIDynamicBehavior
     
     lazy var itemBehavior: UIDynamicItemBehavior = {
         let behavior = UIDynamicItemBehavior()
-        behavior.allowsRotation = false
+        behavior.allowsRotation = true
         behavior.elasticity = 1.0
         behavior.resistance = 0
         return behavior
@@ -38,6 +38,7 @@ class CardBehavior: UIDynamicBehavior
         }
         
         push.magnitude = CGFloat(1.0) + CGFloat(2.0).arc4random
+        
         push.action = { [unowned push, weak self] in
             self?.removeChildBehavior(push)
         }

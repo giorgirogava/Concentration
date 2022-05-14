@@ -143,6 +143,7 @@ extension PlayingCardView {
         static let cornerOffsetToCornerRadius: CGFloat = 0.33
         static let faceCardImageSizeToBoundsSize: CGFloat = 0.75
     }
+    
     private var cornerRadius: CGFloat {
         return bounds.size.height * SizeRatio.cornerRadiusToBoundsHeight
     }

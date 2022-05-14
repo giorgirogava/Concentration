@@ -45,20 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EC676BCF1F96EB9400287B62 /* PlayingCard */ = {
+		EC676BCF1F96EB9400287B62 /* PlayingCardStructure */ = {
 			isa = PBXGroup;
 			children = (
 				ECC83D821F8C4EB6007F751F /* PlayingCard.swift */,
 				ECC034231F8EE1EF00C75102 /* PlayingCardView.swift */,
 				ECC83D841F8C510B007F751F /* PlayingCardDeck.swift */,
 			);
-			path = PlayingCard;
+			name = PlayingCardStructure;
+			path = "PlayingCard/Supporting Files/PlayingCardStructure";
 			sourceTree = "<group>";
 		};
 		ECC83D631F8C4E78007F751F = {
 			isa = PBXGroup;
 			children = (
 				ECC83D6E1F8C4E78007F751F /* PlayingCard */,
+				EC676BCF1F96EB9400287B62 /* PlayingCardStructure */,
 				ECC83D6D1F8C4E78007F751F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,10 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				ECC83D6F1F8C4E78007F751F /* AppDelegate.swift */,
-				EC676BCF1F96EB9400287B62 /* PlayingCard */,
 				ECC83D731F8C4E78007F751F /* Main.storyboard */,
-				ECC83D761F8C4E78007F751F /* Assets.xcassets */,
 				ECC83D781F8C4E78007F751F /* LaunchScreen.storyboard */,
+				ECC83D761F8C4E78007F751F /* Assets.xcassets */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
